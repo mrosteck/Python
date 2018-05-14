@@ -1,5 +1,10 @@
-print("hey")
-msg = "matthew rosteck"
+letter = ['a','b','c','g','h']
 
-print(msg.upper())
-print(msg.capitalize())
+leftLetters = letter[0:3]
+rightLetters  = letter[3:]
+leftLetters = leftLetters + ['d','e','f']
+letters = leftLetters + rightLetters
+
+
+print(letters)
+
